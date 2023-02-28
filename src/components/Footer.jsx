@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import WOW from 'wowjs';
 
 const Footer = props => {
   useEffect(() => {
-    new WOW.WOW().init();
+    // new WOW.WOW().init();
   }, []);
 
   return (
