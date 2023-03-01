@@ -63,7 +63,7 @@ export default function App() {
 
       // Scroll spy
       if (window.location.href.split('#').length > 1) {
-        const sections = document.querySelectorAll < HTMLElement > 'section[id]';
+        const sections = document.querySelectorAll('section[id]');
 
         window.addEventListener('scroll', function () {
           const pos = window.scrollY;
@@ -88,7 +88,7 @@ export default function App() {
             link.classList.remove('active');
 
             const activeLink = document.querySelector(`.nav-item a[href^="/#top-page"]`);
-            activeLink.classList.add('active');
+            activeLink?.classList.add('active');
           }
         });
       } else {

@@ -6,12 +6,12 @@ const Header = props => {
   const [isSearch, setIsSearch] = useState(false);
 
   const handleMobileMenu = e => {
-    e.preventDefault();
+    // e.preventDefault();
     setIsMobileMenu(!isMobileMenu);
   };
 
   const handleSearch = e => {
-    e.preventDefault();
+    // e.preventDefault();
     setIsSearch(!isSearch);
   };
 
@@ -31,13 +31,13 @@ const Header = props => {
                   <a href="/" className="navbar-brand navbar-brand1">
                     <img
                       src="/images/logo-white.png"
-                      srcSet={`/images/logo-white@2x.png 2x`}
+                      srcSet={`/images/logo-white.png 2x`}
                       alt="Naxos"
                     />
                   </a>
 
                   <a href="/" className="navbar-brand navbar-brand2">
-                    <img src="/images/logo.png" srcSet={`/images/logo@2x.png 2x`} alt="Naxos" />
+                    <img src="/images/logo.png" srcSet={`/images/logo.png 2x`} alt="Naxos" />
                   </a>
                 </div>
 
