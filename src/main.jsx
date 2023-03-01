@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +25,9 @@ import './assets/css/media.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SimpleReactLightbox>
+      <App />
+    </SimpleReactLightbox>
   </React.StrictMode>,
   document.getElementById('root')
 );
