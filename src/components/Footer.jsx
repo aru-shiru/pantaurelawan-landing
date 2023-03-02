@@ -16,7 +16,7 @@ const Footer = props => {
             <Col className="col-12 col-md-6 col-lg-3 res-margin">
               <div className="widget">
                 <p className="footer-logo">
-                  <img src="/images/logo-white.png" alt="Naxos" data-rjs="2" />
+                  <img src="/images/logo-white.png" alt="Pantau Relawan" data-rjs="2" />
                 </p>
                 <p>
                   Jl. SMA 14 No. 32, Cililitan <br /> Jakarta 13640 <br /> Indonesia
@@ -118,7 +118,7 @@ const Footer = props => {
               <p className="copyright text-center">
                 Copyright © 2023{' '}
                 <a href="#" target="_blank">
-                  Naxos
+                  Lamacca Kreatif Solusi
                 </a>
                 . All Rights Reserved.
               </p>

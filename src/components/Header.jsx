@@ -32,12 +32,16 @@ const Header = props => {
                     <img
                       src="/images/logo-white.png"
                       srcSet={`/images/logo-white.png 2x`}
-                      alt="Naxos"
+                      alt="Pantau Relawan"
                     />
                   </a>
 
                   <a href="/" className="navbar-brand navbar-brand2">
-                    <img src="/images/logo.png" srcSet={`/images/logo.png 2x`} alt="Naxos" />
+                    <img
+                      src="/images/logo.png"
+                      srcSet={`/images/logo.png 2x`}
+                      alt="Pantau Relawan"
+                    />
                   </a>
                 </div>
 
@@ -61,7 +65,11 @@ const Header = props => {
               >
                 <div className="m-menu-header d-flex justify-content-between align-items-center d-lg-none">
                   <a href="#" className="logo">
-                    <img src="images/logo.png" srcSet={`/images/logo@2x.png 2x`} alt="Naxos" />
+                    <img
+                      src="images/logo.png"
+                      srcSet={`/images/logo@2x.png 2x`}
+                      alt="Pantau Relawan"
+                    />
                   </a>
 
                   <span
