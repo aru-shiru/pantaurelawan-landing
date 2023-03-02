@@ -14,6 +14,7 @@ import Support from './components/Support';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import ToTop from './components/ToTop';
+import WhatsApp from './components/WhatsApp';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -110,7 +111,7 @@ export default function App() {
       {loading && <Loader />}
       <Header nav="home" />
       <SingleImage />
-      <Clients className="section-box bg-grey" />
+      <Clients className="section-box bg-grey d-none" />
       <Features />
       <ParallaxVideo />
       <Services />
@@ -121,6 +122,7 @@ export default function App() {
       <Support />
       <Pricing />
       <Footer />
+      <WhatsApp />
       <ToTop />
     </div>
   );

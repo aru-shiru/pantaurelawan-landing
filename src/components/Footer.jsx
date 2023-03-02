@@ -19,8 +19,7 @@ const Footer = props => {
                   <img src="/images/logo-white.png" alt="Naxos" data-rjs="2" />
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam
-                  vel laboriosam vitae.
+                  Jl. SMA 14 No. 32, Cililitan <br /> Jakarta 13640 <br /> Indonesia
                 </p>
 
                 {/* <!-- Social links --> */}
@@ -34,12 +33,6 @@ const Footer = props => {
                   <a href="#" title="Instagram">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#" title="Dribbble">
-                    <i className="fab fa-dribbble"></i>
-                  </a>
-                  <a href="#" title="Pinterest">
-                    <i className="fab fa-pinterest fa-fw"></i>
-                  </a>
                 </div>
               </div>
             </Col>
@@ -47,23 +40,23 @@ const Footer = props => {
             {/* <!-- Useful links --> */}
             <Col className="col-12 col-md-6 col-lg-2 offset-lg-1 res-margin">
               <div className="widget">
-                <h6>Useful Links</h6>
+                <h6>Navigation</h6>
 
                 <ul className="footer-menu">
                   <li>
-                    <a href="#">Support</a>
+                    <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <a href="#features">Features</a>
                   </li>
                   <li>
-                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="#screenshots">Screenshots</a>
                   </li>
                   <li>
-                    <a href="#">Affiliate Program</a>
+                    <a href="#support">Support</a>
                   </li>
                   <li>
-                    <a href="#">Careers</a>
+                    <a href="#pricing">Pricing</a>
                   </li>
                 </ul>
               </div>
@@ -72,23 +65,17 @@ const Footer = props => {
             {/* <!-- Product help --> */}
             <Col className="col-12 col-md-6 col-lg-3 res-margin">
               <div className="widget">
-                <h6>Product Help</h6>
+                <h6>Contact</h6>
 
                 <ul className="footer-menu">
                   <li>
-                    <a href="#">FAQ</a>
+                    <a href="#">021 8004423</a>
                   </li>
                   <li>
-                    <a href="#">Reviews</a>
+                    <a href="#">021 8004423</a>
                   </li>
                   <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Feedback</a>
-                  </li>
-                  <li>
-                    <a href="#">API</a>
+                    <a href="#">hello@lamacca.com</a>
                   </li>
                 </ul>
               </div>

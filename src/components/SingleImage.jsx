@@ -62,7 +62,7 @@ const SingleImage = () => {
               data-wow-duration="1s"
               data-wow-delay="0.3s"
             >
-              <img className="bounce-effect" src="images/banner/single-welcome.png" alt="" />
+              <img className="" src="images/banner/single-welcome.png" alt="" />
             </div>
           </Col>
         </Row>

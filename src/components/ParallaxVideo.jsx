@@ -21,7 +21,7 @@ const ParallaxVideo = () => {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="8KB-c-c6DQQ"
         onClose={() => setOpen(false)}
         autoplay
       />
