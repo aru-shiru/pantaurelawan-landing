@@ -550,6 +550,36 @@ blockquote cite:before {
   bottom: 30px;
 }
 
+/* WhatsApp */
+.whatsapp {
+  position: fixed;
+  z-index: 999;
+  bottom: 90px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  /* background-color: #111; */
+  /* color: #fff; */
+  text-align: center;
+  /* font-size: 24px; */
+  /* line-height: 40px; */
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.whatsapp div:before {
+  line-height: 40px;
+}
+
+.whatsapp svg {
+  height: 24px;
+  stroke-width: 0.5;
+}
+
+.whatsapp:hover {
+  /* color: #fff; */
+}
+
 /* Button */
 .btn {
   position: relative;

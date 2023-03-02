@@ -23,7 +23,9 @@ const Features = props => {
               <li>
                 <div className={'feature-box d-flex' + (props.boxLeft ? ' box-left' : '')}>
                   <div className="box-icon">
-                    <div className="icon icon-basic-gear"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-1.png" alt="" />
+                    </div>
                   </div>
                   <div className="box-text align-self-center align-self-md-start">
                     <h4>Manajemen Relawan</h4>
@@ -39,14 +41,16 @@ const Features = props => {
               <li>
                 <div className={'feature-box d-flex' + (props.boxLeft ? ' box-left' : '')}>
                   <div className="box-icon">
-                    <div className="icon icon-basic-lock"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-2.png" alt="" />
+                    </div>
                   </div>
 
                   <div className="box-text align-self-center align-self-md-start">
                     <h4>Monitoring Kegiatan</h4>
                     <p>
                       Fitur yang digunakan oleh relawan timses sebagai media pelaporan dan informasi
-                      kegiatan/aktifitas di lapangan untuk dijadikan sebagai salah satu tolak ukur
+                      kegiatan/aktivitas di lapangan untuk dijadikan sebagai salah satu tolak ukur
                       kinerja tim dilapangan.
                     </p>
                   </div>
@@ -56,7 +60,9 @@ const Features = props => {
               <li>
                 <div className={'feature-box d-flex' + (props.boxLeft ? ' box-left' : '')}>
                   <div className="box-icon">
-                    <div className="icon icon-basic-message-txt"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-3.png" alt="" />
+                    </div>
                   </div>
 
                   <div className="box-text align-self-center align-self-md-start">
@@ -83,7 +89,9 @@ const Features = props => {
               <li>
                 <div className="feature-box d-flex">
                   <div className="box-icon">
-                    <div className="icon icon-basic-share"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-4.png" alt="" />
+                    </div>
                   </div>
 
                   <div className="box-text align-self-center align-self-md-start">
@@ -100,7 +108,9 @@ const Features = props => {
               <li>
                 <div className="feature-box d-flex">
                   <div className="box-icon">
-                    <div className="icon icon-basic-sheet-multiple"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-5.png" alt="" />
+                    </div>
                   </div>
 
                   <div className="box-text align-self-center align-self-md-start">
@@ -117,7 +127,9 @@ const Features = props => {
               <li>
                 <div className="feature-box d-flex">
                   <div className="box-icon">
-                    <div className="icon icon-basic-alarm"></div>
+                    <div className="icon">
+                      <img src="/images/icon/icon-6.png" alt="" />
+                    </div>
                   </div>
 
                   <div className="box-text align-self-center align-self-md-start">

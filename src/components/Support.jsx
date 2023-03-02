@@ -11,10 +11,6 @@ const Support = props => {
           <Col className="col-12 col-md-10 col-lg-6">
             <div className="section-title text-center">
               <h3>Frequently Asked Questions</h3>
-              <p>
-                Cras fringilla, lectus sed ullamcorper fringilla. Massa ex accumsan odio, quis
-                iaculis justo magna quis tortor.
-              </p>
             </div>
           </Col>
         </Row>
@@ -25,16 +21,16 @@ const Support = props => {
             <Accordion defaultActiveKey="0" flush>
               {/* <!-- Question 1 --> */}
               <Accordion.Item eventKey="0">
-                <Accordion.Header as="h5">
-                  Can I see Naxos in action before purchasing it?
-                </Accordion.Header>
-
+                <Accordion.Header as="h5">Apa itu Aplikasi Pantau Relawan?</Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    Nam erat orci, dictum eu iaculis a, scelerisque commodo risus. Mauris eu egestas
-                    ipsum. In hac habitasse platea dictumst. Duis in consequat est. Sed feugiat,
-                    ante in finibus ullamcorper, felis sem porta orci, sed pretium nibh nunc a
-                    tellus.
+                    Aplikasi Pantau Relawan adalah Aplikasi multiplatform Berbasis Web dan Mobile
+                    yang dapat digunakan oleh Calon Legislatif atau Calon Kepala Daerah untuk
+                    memantau pergerakan dan kerja timses serta relawan di lapangan. Selain itu,
+                    Aplikasi Pantau Relawan dapat memberikan laporan secara realtime, dapat
+                    melakukan perhitungan pemetaan suara calon pemilih/pendukung oleh tim sukses di
+                    lapangan serta penghitungan cepat hasil pemilu dari sumber pemungutan suara/TPS
+                    dari suatu tingkat daerah tertentu.
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -42,15 +38,13 @@ const Support = props => {
               {/* <!-- Question 2 --> */}
               <Accordion.Item eventKey="1">
                 <Accordion.Header as="h5">
-                  I've got older Mac. Is Naxos compatible with it?
+                  Bagaimana cara mengakses Aplikasi Pantau Relawan?
                 </Accordion.Header>
-
                 <Accordion.Body>
                   <p>
-                    Nam erat orci, dictum eu iaculis a, scelerisque commodo risus. Mauris eu egestas
-                    ipsum. In hac habitasse platea dictumst. Duis in consequat est. Sed feugiat,
-                    ante in finibus ullamcorper, felis sem porta orci, sed pretium nibh nunc a
-                    tellus.
+                    Aplikasi Pantau Relawan bisa diakses melalui berbagai gawai seperti personal
+                    computer, laptop, tablet dan smartphone. Aplikasi Pantau Relawan berbasis Web
+                    untuk Admin dan Aplikasi Mobile (Android dan IOS) untuk para timses atau relawan
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
@@ -58,60 +52,45 @@ const Support = props => {
               {/* <!-- Question 3 --> */}
               <Accordion.Item eventKey="2">
                 <Accordion.Header as="h5">
-                  What are the requirements for using Naxos?
+                  Apakah kami bisa mencoba Aplikasi Pantau Relawan?
                 </Accordion.Header>
-
                 <Accordion.Body>
                   <p>
-                    Nam erat orci, dictum eu iaculis a, scelerisque commodo risus. Mauris eu egestas
-                    ipsum. In hac habitasse platea dictumst. Duis in consequat est. Sed feugiat,
-                    ante in finibus ullamcorper, felis sem porta orci, sed pretium nibh nunc a
-                    tellus.
+                    Bisa, silahkan download Aplikasi Pantau Relawan melalui Play Store maupun App
+                    Store untuk melakukan demo
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
 
               {/* <!-- Question 4 --> */}
               <Accordion.Item eventKey="3">
-                <Accordion.Header as="h5">How does Naxos handle my privacy?</Accordion.Header>
-
+                <Accordion.Header as="h5">
+                  Bagaimana kami bisa mendapatkan informasi lebih lanjut terkait Aplikasi Pantau
+                  Relawan?
+                </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    Nam erat orci, dictum eu iaculis a, scelerisque commodo risus. Mauris eu egestas
-                    ipsum. In hac habitasse platea dictumst. Duis in consequat est. Sed feugiat,
-                    ante in finibus ullamcorper, felis sem porta orci, sed pretium nibh nunc a
-                    tellus.
+                    Anda dapat melakukan komunikasi dengan tim support kami via WhatsApp maupun
+                    Email yang terdapat di menu support
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
 
               {/* <!-- Question 5 --> */}
               <Accordion.Item eventKey="4">
-                <Accordion.Header as="h5">What is Naxos privacy policy?</Accordion.Header>
-
+                <Accordion.Header as="h5">
+                  Apakah Aplikasi Pantau Relawan bisa dibuatkan secara custom sesuai dengan
+                  kebutuhan Calon Legislatif atau Calon Kepala Daerah?
+                </Accordion.Header>
                 <Accordion.Body>
                   <p>
-                    Nam erat orci, dictum eu iaculis a, scelerisque commodo risus. Mauris eu egestas
-                    ipsum. In hac habitasse platea dictumst. Duis in consequat est. Sed feugiat,
-                    ante in finibus ullamcorper, felis sem porta orci, sed pretium nibh nunc a
-                    tellus.
+                    Bisa, silahkan hubungi tim support kami untuk mendiskusikan lebih lanjut
+                    kebutuhan fitur sesuai dengan yang diinginkan Calon Legislatif atau Calon Kepala
+                    Daerah
                   </p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-          </Col>
-        </Row>
-
-        <div className="empty-30"></div>
-
-        <Row>
-          <Col className="col-12">
-            <p className="text-center mb-0">
-              Still have a question?{' '}
-              <a href="#contact">
-                <strong>Ask your question here</strong>
-              </a>
-            </p>
           </Col>
         </Row>
       </Container>

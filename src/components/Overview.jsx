@@ -57,7 +57,7 @@ const Overview = props => {
                   <h6 className="font-weight-bold mb-2 mt-0">Media Pelaporan Relawan</h6>
                   <p>
                     Memfasilitasi para relawan hingga ke level “grass root“ untuk melakukan
-                    pencatatan data dan di konsolidasi data dan aktifitas pendukung secara
+                    pencatatan data dan di konsolidasi data dan aktivitas pendukung secara
                     berjenjang & terstruktur.
                   </p>
                 </div>
@@ -149,13 +149,6 @@ const Overview = props => {
                 </p>
               </li>
             </ul>
-
-            {/* <!-- Button --> */}
-            <p className="text-center text-lg-start">
-              <a href="#" className="btn">
-                Learn More
-              </a>
-            </p>
           </Col>
 
           {/* <!-- Image --> */}

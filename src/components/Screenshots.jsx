@@ -101,6 +101,84 @@ const Screenshots = props => {
                     <img src="/images/screenshots/screenshot-8.jpg" alt="" />
                   </a>
                 </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-9.jpg">
+                    <img src="/images/screenshots/screenshot-9.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-10.jpg">
+                    <img src="/images/screenshots/screenshot-10.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-11.jpg">
+                    <img src="/images/screenshots/screenshot-11.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-12.jpg">
+                    <img src="/images/screenshots/screenshot-12.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-13.jpg">
+                    <img src="/images/screenshots/screenshot-13.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-14.jpg">
+                    <img src="/images/screenshots/screenshot-14.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-15.jpg">
+                    <img src="/images/screenshots/screenshot-15.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-16.jpg">
+                    <img src="/images/screenshots/screenshot-16.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-17.jpg">
+                    <img src="/images/screenshots/screenshot-17.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-18.jpg">
+                    <img src="/images/screenshots/screenshot-18.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-19.jpg">
+                    <img src="/images/screenshots/screenshot-19.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-20.jpg">
+                    <img src="/images/screenshots/screenshot-20.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
+
+                <SwiperSlide className="item">
+                  <a href="/images/screenshots/screenshot-21.jpg">
+                    <img src="/images/screenshots/screenshot-21.jpg" alt="" />
+                  </a>
+                </SwiperSlide>
               </Swiper>
             </SRLWrapper>
           </Col>
