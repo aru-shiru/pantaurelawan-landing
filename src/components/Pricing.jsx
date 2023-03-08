@@ -10,7 +10,7 @@ const Pricing = props => {
         <Row className="justify-content-center">
           <Col className="col-12 col-md-10 col-lg-6">
             <div className="section-title text-center">
-              <h3>Pricing Paket Basic Caleg</h3>
+              <h3>Pricing Calon Legislatif</h3>
             </div>
           </Col>
         </Row>
@@ -24,7 +24,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">DPRD Kab/Kota</h3>
               <h2 className="plan-price">
-                Mulai dari <span>25jt</span>
+                Mulai dari <strong>25jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -41,10 +41,6 @@ const Pricing = props => {
                   <span>Maksimum 5.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                Pilih
-              </a>
             </div>
           </Col>
 
@@ -55,7 +51,9 @@ const Pricing = props => {
                 <img src="/images/icon/pricing-icon-2.png" alt="icon" width={100} />
               </div>
               <h3 className="plan-type">DPR RI / DPD RI</h3>
-              <h2 className="plan-price">Mulai dari 85jt</h2>
+              <h2 className="plan-price">
+                Mulai dari <strong>85jt</strong>
+              </h2>
 
               <ul className="list-unstyled plan-list">
                 <li>
@@ -71,14 +69,6 @@ const Pricing = props => {
                   <span>Maksimum 20.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                Pilih
-              </a>
-
-              <div className="card-ribbon">
-                <span>Popular</span>
-              </div>
             </div>
           </Col>
 
@@ -89,7 +79,9 @@ const Pricing = props => {
                 <img src="/images/icon/pricing-icon-3.png" alt="icon" width={100} />
               </div>
               <h3 className="plan-type">DPRD Provinsi</h3>
-              <h2 className="plan-price">Mulai dari 50jt</h2>
+              <h2 className="plan-price">
+                Mulai dari <strong>50jt</strong>
+              </h2>
 
               <ul className="list-unstyled plan-list">
                 <li>
@@ -105,10 +97,6 @@ const Pricing = props => {
                   <span>Maksimum 15.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                pilih
-              </a>
             </div>
           </Col>
         </Row>
@@ -117,7 +105,7 @@ const Pricing = props => {
         <Row className="justify-content-center mt-5">
           <Col className="col-12 col-md-10 col-lg-6">
             <div className="section-title text-center">
-              <h3>Pricing Paket Basic Calon Kepala Daerah</h3>
+              <h3>Pricing Calon Kepala Daerah</h3>
             </div>
           </Col>
         </Row>
@@ -131,7 +119,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">Bupati</h3>
               <h2 className="plan-price">
-                Mulai dari <span>100jt</span>
+                Mulai dari <strong>100jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -148,10 +136,6 @@ const Pricing = props => {
                   <span>Maksimum 25.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                Pilih
-              </a>
             </div>
           </Col>
 
@@ -162,7 +146,9 @@ const Pricing = props => {
                 <img src="/images/icon/pricing-icon-2.png" alt="icon" width={100} />
               </div>
               <h3 className="plan-type">Gubernur</h3>
-              <h2 className="plan-price">Mulai dari 200jt</h2>
+              <h2 className="plan-price">
+                Mulai dari <strong>200jt</strong>
+              </h2>
 
               <ul className="list-unstyled plan-list">
                 <li>
@@ -178,14 +164,6 @@ const Pricing = props => {
                   <span>Maksimum 150.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                Pilih
-              </a>
-
-              <div className="card-ribbon">
-                <span>Popular</span>
-              </div>
             </div>
           </Col>
 
@@ -196,7 +174,9 @@ const Pricing = props => {
                 <img src="/images/icon/pricing-icon-3.png" alt="icon" width={100} />
               </div>
               <h3 className="plan-type">Walikota</h3>
-              <h2 className="plan-price">Mulai dari 125jt</h2>
+              <h2 className="plan-price">
+                Mulai dari <strong>125jt</strong>
+              </h2>
 
               <ul className="list-unstyled plan-list">
                 <li>
@@ -212,10 +192,6 @@ const Pricing = props => {
                   <span>Maksimum 50.000 TPS</span>
                 </li>
               </ul>
-
-              <a className="btn" href="#">
-                Pilih
-              </a>
             </div>
           </Col>
         </Row>
