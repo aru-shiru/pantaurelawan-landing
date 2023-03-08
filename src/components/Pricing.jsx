@@ -10,33 +10,40 @@ const Pricing = props => {
         <Row className="justify-content-center">
           <Col className="col-12 col-md-10 col-lg-6">
             <div className="section-title text-center">
-              <h3>Pricing Plans</h3>
-              <p>
-                Morbi nec massa ac ligula pulvinar congue. Nunc ut sollicitudin nibh. Etiam sem
-                nibh, auctor sed, pharetra congue.
-              </p>
+              <h3>Pricing Paket Basic Caleg</h3>
             </div>
           </Col>
         </Row>
 
-        <Row className="row align-items-center pricing-plans">
+        <Row className="row align-items-center pricing-plans pb-5">
           {/* <!-- Plan 1 --> */}
           <Col className="col-12 col-lg-4 res-margin">
             <div className="price-table">
-              <div className="icon icon-software-layers2"></div>
-              <h3 className="plan-type">Standard</h3>
-              <h2 className="plan-price">$19/month</h2>
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-1.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">DPRD Kab/Kota</h3>
+              <h2 className="plan-price">
+                Mulai dari <span>25jt</span>
+              </h2>
 
               <ul className="list-unstyled plan-list">
-                <li>50 GB Disk Space</li>
-                <li>Unlimited Bandwidth</li>
-                <li>5 MySQL Database</li>
-                <li>3 FTP Users</li>
-                <li>Free Domain</li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 50.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 5.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 5.000 TPS</span>
+                </li>
               </ul>
 
               <a className="btn" href="#">
-                Purchase
+                Pilih
               </a>
             </div>
           </Col>
@@ -44,20 +51,29 @@ const Pricing = props => {
           {/* <!-- Plan 2 --> */}
           <Col className="col-12 col-lg-4 res-margin">
             <div className="price-table plan-popular mb-4 mb-sm-5 mb-lg-0">
-              <div className="icon icon-basic-heart"></div>
-              <h3 className="plan-type">Professional</h3>
-              <h2 className="plan-price">$29/month</h2>
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-2.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">DPR RI / DPD RI</h3>
+              <h2 className="plan-price">Mulai dari 85jt</h2>
 
               <ul className="list-unstyled plan-list">
-                <li>100 GB Disk Space</li>
-                <li>Unlimited Bandwidth</li>
-                <li>Unlimited MySQL Database</li>
-                <li>15 FTP Users</li>
-                <li>Free Domain</li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 350.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 50.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 20.000 TPS</span>
+                </li>
               </ul>
 
               <a className="btn" href="#">
-                Purchase
+                Pilih
               </a>
 
               <div className="card-ribbon">
@@ -69,20 +85,136 @@ const Pricing = props => {
           {/* <!-- Plan 3 --> */}
           <Col className="col-12 col-lg-4">
             <div className="price-table">
-              <div className="icon icon-weather-sun"></div>
-              <h3 className="plan-type">Business</h3>
-              <h2 className="plan-price">$39/month</h2>
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-3.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">DPRD Provinsi</h3>
+              <h2 className="plan-price">Mulai dari 50jt</h2>
 
               <ul className="list-unstyled plan-list">
-                <li>Unlimited Disk Space</li>
-                <li>Unlimited Bandwidth</li>
-                <li>Unlimited MySQL Database</li>
-                <li>Unlimited FTP Users</li>
-                <li>Unlimited Domains</li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 150.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 25.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 15.000 TPS</span>
+                </li>
               </ul>
 
               <a className="btn" href="#">
-                Purchase
+                pilih
+              </a>
+            </div>
+          </Col>
+        </Row>
+
+        {/* <!-- Section title --> */}
+        <Row className="justify-content-center mt-5">
+          <Col className="col-12 col-md-10 col-lg-6">
+            <div className="section-title text-center">
+              <h3>Pricing Paket Basic Calon Kepala Daerah</h3>
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="row align-items-center pricing-plans">
+          {/* <!-- Plan 1 --> */}
+          <Col className="col-12 col-lg-4 res-margin">
+            <div className="price-table">
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-1.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">Bupati</h3>
+              <h2 className="plan-price">
+                Mulai dari <span>100jt</span>
+              </h2>
+
+              <ul className="list-unstyled plan-list">
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 1.500.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 75.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 25.000 TPS</span>
+                </li>
+              </ul>
+
+              <a className="btn" href="#">
+                Pilih
+              </a>
+            </div>
+          </Col>
+
+          {/* <!-- Plan 2 --> */}
+          <Col className="col-12 col-lg-4 res-margin">
+            <div className="price-table plan-popular mb-4 mb-sm-5 mb-lg-0">
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-2.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">Gubernur</h3>
+              <h2 className="plan-price">Mulai dari 200jt</h2>
+
+              <ul className="list-unstyled plan-list">
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 15.000.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 1.000.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 150.000 TPS</span>
+                </li>
+              </ul>
+
+              <a className="btn" href="#">
+                Pilih
+              </a>
+
+              <div className="card-ribbon">
+                <span>Popular</span>
+              </div>
+            </div>
+          </Col>
+
+          {/* <!-- Plan 3 --> */}
+          <Col className="col-12 col-lg-4">
+            <div className="price-table">
+              <div className="icon">
+                <img src="/images/icon/pricing-icon-3.png" alt="icon" width={100} />
+              </div>
+              <h3 className="plan-type">Walikota</h3>
+              <h2 className="plan-price">Mulai dari 125jt</h2>
+
+              <ul className="list-unstyled plan-list">
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 2.000.000 Dukungan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 100.000 Relawan</span>
+                </li>
+                <li>
+                  <img src="/images/icon/check-circle.png" alt="icon" width={20} className="me-1" />
+                  <span>Maksimum 50.000 TPS</span>
+                </li>
+              </ul>
+
+              <a className="btn" href="#">
+                Pilih
               </a>
             </div>
           </Col>
