@@ -75,7 +75,7 @@ const Footer = props => {
                     <a href="#">021 8004423</a>
                   </li>
                   <li>
-                    <a href="#">hello@lamacca.com</a>
+                    <a href="#">hello@pantaurelawan.com</a>
                   </li>
                 </ul>
               </div>
