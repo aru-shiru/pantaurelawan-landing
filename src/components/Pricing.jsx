@@ -24,7 +24,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">DPRD Kab/Kota</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>25jt</strong>
+                Mulai dari <strong>7jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -52,7 +52,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">DPR RI / DPD RI</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>85jt</strong>
+                Mulai dari <strong>35jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -80,7 +80,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">DPRD Provinsi</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>50jt</strong>
+                Mulai dari <strong>18jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -119,7 +119,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">Bupati</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>100jt</strong>
+                Mulai dari <strong>50jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -147,7 +147,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">Gubernur</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>200jt</strong>
+                Mulai dari <strong>150jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
@@ -175,7 +175,7 @@ const Pricing = props => {
               </div>
               <h3 className="plan-type">Walikota</h3>
               <h2 className="plan-price">
-                Mulai dari <strong>125jt</strong>
+                Mulai dari <strong>75jt</strong>
               </h2>
 
               <ul className="list-unstyled plan-list">
